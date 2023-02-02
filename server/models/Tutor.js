@@ -16,6 +16,10 @@ const tutorSchema = new Schema({
     subjects: {
         type: String,
         required: true
+    },
+    age: {
+        type: Number,
+        required: true,
     }
 })
 

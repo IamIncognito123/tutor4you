@@ -1,6 +1,6 @@
 // bringing in the mongoose schema and model
 const { Schema, model} = require ('mongoose');
-
+const Class = require('./Class')
 // 'new' creates an instance of the object 
 // instantiate Schema as a new const called studentSchema
 const studentSchema = new Schema ({
@@ -10,6 +10,15 @@ const studentSchema = new Schema ({
     },
     lastName: {
         type: String,
+        required: true
+    },
+    classes: [Class.schema],
+    gradeLevel: {
+        type: Number,
+        required: true,
+    },
+    age: {
+        type: Number,
         required: true,
     }
 })
