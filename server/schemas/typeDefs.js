@@ -1,6 +1,7 @@
 const {gql} = require('apollo-server-express');
 
 // ! prevents the object from having a null value
+// Tutor, student and class are all object types
 const typeDefs = gql `
     type Tutor {
         _id: ID!
@@ -26,6 +27,9 @@ const typeDefs = gql `
     }
 
     type Query {
-        
+        student: Student
+        tutor: Tutor
+        classes:
+
     }
 `
