@@ -1,5 +1,6 @@
 const {Schema, model} = require('mongoose');
 
+// add specific students
 const tutorSchema = new Schema({
     firstName: {
         type: String,
