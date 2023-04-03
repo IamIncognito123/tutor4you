@@ -7,6 +7,7 @@ const path = require('path')
 
 // bringing in typedefs/resolvers from the schema file
 const {typedefs, resolvers} = require('./schemas');
+
 // bringing in the mongoose connection/MongoDB database
 const db = require('./config/connection')
 

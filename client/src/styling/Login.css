@@ -38,21 +38,6 @@ form {
     background-color: blue;
   }
   
-  .signUp{
-    text-align: center;
-  }
-
   .signUpButton{
-    text-decoration: none;
-    
-  }
-
-  .signup-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .signup-form label {
-    display: block;
-    margin-bottom: 10px;
+    text-align: center;
   }
